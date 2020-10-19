@@ -1,0 +1,64 @@
+@media (min-width:640px){
+.outside {
+    display: flex;
+    width: 1020px;
+    height: 500px;
+    border: 1px solid #cccccc;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.box1{
+    width: 150px;
+    height: 120px;
+    border: 1px solid #f00;
+}
+.box2{
+    width: 150px;
+    height: 100px;
+    border: 1px solid #f00;
+}
+.box3{
+    width: 150px;
+    height: 40px;
+    border: 1px solid #f00;
+}
+.box4{
+    width: 150px;
+    height: 200px;
+    border: 1px solid blue;
+}
+}
+
+@media (max-width:640px){
+    .outside {
+    display: flex;
+    width: 570px;
+    height: 500px;
+    border: 1px solid #cccccc;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    }
+    .box4{
+    width: 150px;
+    height: 200px;
+    border: 1px solid blue;
+    }
+    .box1{
+    width: 150px;
+    height: 120px;
+    border: 1px solid #f00;
+    }
+    .box2{
+    width: 150px;
+    height: 100px;
+    border: 1px solid #f00
+    }
+    .box3{
+    width: 150px;
+    height: 40px;
+    border: 1px solid #f00;
+    }
+    
+    }
+    
